@@ -1,0 +1,16 @@
+.catalogo {
+  padding: 48px 32px;
+}
+
+.titulo {
+  margin-bottom: 32px;
+  text-align: center;
+  color: #3b1a40;
+}
+
+.grade {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
