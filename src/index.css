@@ -1,4 +1,3 @@
-/* Estilos globais */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,6 @@ body {
   color: #222;
 }
 
-/* Rodapé sempre no fim da página e conteúdo centralizado */
 #root {
   min-height: 100vh;
   display: flex;
