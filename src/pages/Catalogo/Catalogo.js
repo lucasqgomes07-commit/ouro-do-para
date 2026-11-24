@@ -1,8 +1,8 @@
 import CardItem from '../../components/CardItem/CardItem';
 import styles from './Catalogo.module.css';
-import acai1 from '../../assets/acai1.jpg';
-import acai2 from '../../assets/acai2.webp';
-import acai3 from '../../assets/acai3.jpg';
+import acai1 from '../../assets/images.jpg';
+import acai2 from '../../assets/freepik_tigela-de-acai-roxo-espes_2735621613.webp';
+import acai3 from '../../assets/0927010523j2hhiagak7.jpg';
 
 function Catalogo() {
   return (
