@@ -10,3 +10,18 @@ body {
   background-color: #f4f1ea;
   color: #222;
 }
+
+/* Rodapé sempre no fim da página e conteúdo centralizado */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
