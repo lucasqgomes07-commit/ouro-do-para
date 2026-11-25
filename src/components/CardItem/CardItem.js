@@ -1,18 +1,18 @@
 import styles from './CardItem.module.css';
 
-function CardItem({ imagem, nome, categoria, descricao, caracteristicas }) {
+function CardItem({ nome, categoria, imagem, descricao, caracteristicas }) {
   return (
-    <div className={styles.card}>
+    <article className={styles.card}>
+      <p className={styles.categoria}>{categoria}</p>
       <img src={imagem} alt={nome} className={styles.imagem} />
       <h3 className={styles.nome}>{nome}</h3>
-      <p className={styles.categoria}>{categoria}</p>
       <p>{descricao}</p>
-      <ul className={styles.lista}>
-        {caracteristicas.map((item) => (
-          <li key={item}>{item}</li>
+      <ul>
+        {caracteristicas.map((caracteristica) => (
+          <li key={caracteristica}>{caracteristica}</li>
         ))}
       </ul>
-    </div>
+    </article>
   );
 }
 
