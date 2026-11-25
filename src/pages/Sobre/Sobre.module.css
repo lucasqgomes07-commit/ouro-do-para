@@ -1,13 +1,17 @@
 .sobre {
+  width: calc(100% - 40px);
   max-width: 750px;
-  margin: 50px auto;
-  padding: 30px;
+  margin: 60px auto;
+  padding: 36px;
   background-color: white;
   border-left: 8px solid #f2b705;
-  line-height: 1.7;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(59, 26, 64, 0.15);
+  line-height: 1.8;
 }
 
 .titulo {
   margin-bottom: 14px;
+  font-size: 36px;
   color: #3b1a40;
 }
