@@ -1,17 +1,20 @@
-.sobre {
-  width: calc(100% - 40px);
-  max-width: 750px;
-  margin: 60px auto;
-  padding: 36px;
-  background-color: white;
-  border-left: 8px solid #f2b705;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(59, 26, 64, 0.15);
-  line-height: 1.8;
+.historia {
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: center;
+  line-height: 1.6;
 }
 
-.titulo {
-  margin-bottom: 14px;
-  font-size: 36px;
+.chamada {
   color: #3b1a40;
+}
+
+.destaque {
+  padding: 16px 20px;
+  border-left: 5px solid #f2b705;
+  border-radius: 0 12px 12px 0;
+  background-color: #fff;
+  text-align: left;
 }
