@@ -1,16 +1,18 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
 function Navbar() {
+  const estiloLink = ({ isActive }) => (isActive ? styles.ativo : styles.item);
+
   return (
-    <nav className={styles.navbar}>
-      <span className={styles.logo}>Ouro do Pará</span>
-      <div>
-        <Link to="/" className={styles.link}>Home</Link>
-        <Link to="/catalogo" className={styles.link}>Catálogo</Link>
-        <Link to="/sobre" className={styles.link}>Sobre</Link>
-      </div>
-    </nav>
+    <header className={styles.topo}>
+      <Link to="/" className={styles.marca}>Ouro do Pará</Link>
+      <nav className={styles.atalhos}>
+        <NavLink to="/" end className={estiloLink}>Home</NavLink>
+        <NavLink to="/tipos" className={estiloLink}>Tipos</NavLink>
+        <NavLink to="/por-que-acai" className={estiloLink}>Sobre</NavLink>
+      </nav>
+    </header>
   );
 }
 

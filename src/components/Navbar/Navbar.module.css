@@ -1,30 +1,35 @@
-.navbar {
+.topo {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 16px 40px;
-  background-color: #f2b705;
-  box-shadow: 0 3px 10px rgba(59, 26, 64, 0.25);
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #3b1a40;
-}
-
-.link {
-  margin-left: 24px;
-  padding: 6px 14px;
-  color: #3b1a40;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: 20px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.link:hover {
+  padding: 14px 28px;
   background-color: #3b1a40;
+}
+
+.marca {
   color: #f2b705;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.atalhos {
+  margin-left: auto;
+  display: flex;
+  gap: 22px;
+}
+
+.item,
+.ativo {
+  padding-bottom: 2px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.item:hover {
+  color: #f2b705;
+}
+
+.ativo {
+  color: #f2b705;
+  border-bottom: 2px solid #f2b705;
 }
