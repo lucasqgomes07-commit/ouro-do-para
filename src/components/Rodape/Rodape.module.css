@@ -1,6 +1,8 @@
 .rodape {
-  padding: 24px;
+  margin-top: auto;
+  padding: 18px;
   text-align: center;
-  background-color: #3b1a40;
-  color: #fff;
+  background-color: #2b1a2e;
+  color: #f2b705;
+  font-size: 14px;
 }
