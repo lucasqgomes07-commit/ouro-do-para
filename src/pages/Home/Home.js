@@ -1,13 +1,17 @@
 import { Link } from 'react-router-dom';
+import foto from '../../assets/colheita.webp';
 import styles from './Home.module.css';
 
 function Home() {
   return (
-    <main className={styles.home}>
-      <h1 className={styles.titulo}>O açaí é o ouro do Pará</h1>
-      <p>Da palmeira para a mesa: conheça o fruto que é a cara do Pará.</p>
-      <Link to="/catalogo" className={styles.botao}>Ver tipos de açaí</Link>
-    </main>
+    <section className={styles.inicio}>
+      <div className={styles.texto}>
+        <h1 className={styles.chamada}>O açaí é o ouro do Pará</h1>
+        <p>Os tipos de açaí que a gente encontra nas batedeiras de Belém.</p>
+        <Link to="/tipos" className={styles.acao}>Ver os tipos</Link>
+      </div>
+      <img src={foto} alt="Cesto com açaí colhido" className={styles.foto} />
+    </section>
   );
 }
 
