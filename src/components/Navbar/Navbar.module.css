@@ -2,21 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 40px;
+  padding: 16px 40px;
   background-color: #f2b705;
-  border-bottom: 4px solid #3b1a40;
+  box-shadow: 0 3px 10px rgba(59, 26, 64, 0.25);
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   color: #3b1a40;
 }
 
 .link {
   margin-left: 24px;
+  padding: 6px 14px;
   color: #3b1a40;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.link:hover {
+  background-color: #3b1a40;
+  color: #f2b705;
 }
