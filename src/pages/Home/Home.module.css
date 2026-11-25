@@ -6,21 +6,28 @@
   align-items: center;
   padding: 60px 20px;
   text-align: center;
+  background: linear-gradient(180deg, #fffaf0, #f3e4f5);
 }
 
 .titulo {
   margin-bottom: 16px;
-  font-size: 48px;
+  font-size: 56px;
   color: #3b1a40;
   border-bottom: 5px solid #f2b705;
 }
 
 .botao {
   margin-top: 28px;
-  padding: 14px 32px;
+  padding: 14px 34px;
   background-color: #3b1a40;
   color: #f2b705;
   font-weight: bold;
   text-decoration: none;
   border-radius: 30px;
+  box-shadow: 0 6px 16px rgba(59, 26, 64, 0.35);
+  transition: transform 0.3s;
+}
+
+.botao:hover {
+  transform: translateY(-4px);
 }
