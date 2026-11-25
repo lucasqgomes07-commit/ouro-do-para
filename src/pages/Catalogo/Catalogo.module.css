@@ -1,10 +1,15 @@
 .catalogo {
-  padding: 40px;
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  text-align: center;
 }
 
 .titulo {
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 36px;
+  font-size: 40px;
   color: #3b1a40;
   border-bottom: 5px solid #f2b705;
 }
@@ -12,5 +17,6 @@
 .grade {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 28px;
+  gap: 30px;
+  text-align: left;
 }
