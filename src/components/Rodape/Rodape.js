@@ -4,7 +4,7 @@ function Rodape({ autor }) {
   return (
     <footer className={styles.base}>
       <strong className={styles.nome}>Ouro do Pará</strong>
-      <span>Feito por {autor} · CESUPA · 2026</span>
+      <span>Feito por {autor} · Açaí bom é açaí raiz!!!</span>
     </footer>
   );
 }
