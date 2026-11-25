@@ -1,23 +1,26 @@
 .home {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  padding: 60px 20px;
   text-align: center;
-  padding: 32px;
 }
 
 .titulo {
-  font-size: 3rem;
+  margin-bottom: 16px;
+  font-size: 48px;
   color: #3b1a40;
+  border-bottom: 5px solid #f2b705;
 }
 
 .botao {
-  padding: 12px 28px;
-  background-color: #f2b705;
-  color: #3b1a40;
+  margin-top: 28px;
+  padding: 14px 32px;
+  background-color: #3b1a40;
+  color: #f2b705;
   font-weight: bold;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 30px;
 }
