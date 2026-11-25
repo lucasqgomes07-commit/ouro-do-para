@@ -1,37 +1,35 @@
-import CardItem from '../../components/CardItem/CardItem';
+import CardAcai from '../../components/CardAcai/CardAcai';
+import acai1 from '../../assets/acai1.jpg';
+import acai2 from '../../assets/acai2.webp';
+import acai3 from '../../assets/acai-fino.jpg';
 import styles from './Catalogo.module.css';
-import acai1 from '../../assets/images.jpg';
-import acai2 from '../../assets/freepik_tigela-de-acai-roxo-espes_2735621613.webp';
-import acai3 from '../../assets/0927010523j2hhiagak7.jpg';
 
 function Catalogo() {
   return (
-    <main className={styles.catalogo}>
-      <h1 className={styles.titulo}>Tipos de açaí</h1>
+    <section className={styles.vitrine}>
+      <h1 className={styles.chamada}>Tipos de açaí</h1>
+      <p className={styles.legenda}>O que muda de um para o outro é a quantidade de água na hora de bater.</p>
       <div className={styles.grade}>
-        <CardItem
-          imagem={acai1}
-          nome="Açaí Grosso"
-          categoria="Especial"
-          descricao="Mais polpa e menos água. É o mais encorpado e o mais caro."
-          caracteristicas={['Bem espesso', 'Sabor forte', 'Preço mais alto']}
+        <CardAcai
+          nome="Grosso"
+          foto={acai1}
+          texto="Também chamado de especial. Leva pouca água na hora de bater, então fica bem grosso. É o mais caro."
+          dica="Bom pra comer com farinha d'água."
         />
-        <CardItem
-          imagem={acai2}
-          nome="Açaí Médio"
-          categoria="Tradicional"
-          descricao="Equilíbrio entre polpa e água. Muito comum no dia a dia."
-          caracteristicas={['Consistência média', 'Sabor equilibrado', 'Preço médio']}
+        <CardAcai
+          nome="Médio"
+          foto={acai2}
+          texto="É o que a maioria das pessoas compra no dia a dia."
+          dica="O equilíbrio perfeito entre grosso e fino."
         />
-        <CardItem
-          imagem={acai3}
-          nome="Açaí Fino"
-          categoria="Popular"
-          descricao="Leva mais água no preparo. É o mais leve e o mais barato."
-          caracteristicas={['Mais líquido', 'Sabor suave', 'Preço mais baixo']}
+        <CardAcai
+          nome="Fino"
+          foto={acai3}
+          texto="Também chamado de popular. Leva mais água e é o mais barato."
+          dica="Mais fácil de tomar no copo."
         />
       </div>
-    </main>
+    </section>
   );
 }
 
