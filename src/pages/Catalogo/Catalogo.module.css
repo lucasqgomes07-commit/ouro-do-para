@@ -1,16 +1,16 @@
 .catalogo {
-  padding: 48px 32px;
+  padding: 40px;
 }
 
 .titulo {
-  margin-bottom: 32px;
-  text-align: center;
+  display: inline-block;
+  margin-bottom: 30px;
   color: #3b1a40;
+  border-bottom: 5px solid #f2b705;
 }
 
 .grade {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
 }
