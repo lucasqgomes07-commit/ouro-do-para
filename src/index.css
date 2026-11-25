@@ -1,17 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Trebuchet MS', Verdana, sans-serif;
-  background-color: #fffaf0;
-  color: #2b1a2e;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', Verdana, sans-serif;
+  background-color: #f7f2ec;
+  color: #2b2430;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
 }
