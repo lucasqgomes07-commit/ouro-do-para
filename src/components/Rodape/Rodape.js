@@ -1,9 +1,10 @@
 import styles from './Rodape.module.css';
 
-function Rodape() {
+function Rodape({ autor }) {
   return (
-    <footer className={styles.rodape}>
-      <p>Ouro do Pará - o açaí bom tedoooooooooidé!!!</p>
+    <footer className={styles.base}>
+      <strong className={styles.nome}>Ouro do Pará</strong>
+      <span>Feito por {autor} · CESUPA · 2026</span>
     </footer>
   );
 }

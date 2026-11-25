@@ -1,8 +1,14 @@
-.rodape {
-  margin-top: auto;
-  padding: 20px;
-  text-align: center;
-  background-color: #2b1a2e;
+.base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 18px;
+  background-color: #3b1a40;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.nome {
   color: #f2b705;
-  font-size: 15px;
 }
